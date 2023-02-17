@@ -1,0 +1,156 @@
+/*
+Theme Name: ThemeSadia
+Author: Sheikh Abu Reza
+Version: 1.0
+Description: This is for Training purpose
+Tags: IIST, web dev, web design
+Text Domain: themesadia
+
+*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(./assets/images/bg_main.gif) center center;
+}
+
+/* topbar part start */
+.cont{
+    max-width: 996px;
+    margin: 0 auto;
+}
+.topbar{
+    height: 30px;
+    background:#9E5BBA;
+    color: #fff;
+    font-size: 14px;
+    line-height: 30px;
+}
+.topbar_right a{
+    text-decoration: none;
+    color: #fff;
+    padding-left: 5px;
+}
+/* topbar part end */
+/* logo part start */
+.logo{
+    height: 110px;
+}
+.logo_left{
+    line-height: 110px;
+}
+.logo_search{
+    padding-top: 45px;
+}
+.logo_right{
+    padding-top: 20px;
+    height: 80px;
+}
+.logo_right_1{
+    border-right: 1px solid #ddd;
+    padding-right: 7px;
+    margin-right: 7px;
+    /* height: 5px; */
+    padding-top: 20px;
+}
+.logo_right_2 p{
+    font-size: 13px;
+    color: #683091;
+    position: relative;
+    top: 15%;
+}
+/* logo part end */
+/* .menu_main ul li a{
+    font-size: 12px;
+    border-right: 1px solid #ccc;
+}
+.menu_main ul li a:hover{
+    background-color: chartreuse;
+
+}
+.menu_main ul li{
+    width: 120px;
+} */
+/* hero part start */
+.banner img{
+    border: 2px solid red;
+    padding: 10px;
+}
+.slider img{
+    height: 300px;
+}
+.list ul{
+list-style: none;
+}
+.list ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    border-bottom: 1px solid green;
+    padding-bottom: 2px;
+}
+.list ul li a:hover{
+    color: green;
+}
+.list h5{
+    font-size: 15px;
+    font-weight: 700;
+    color:#69308f;
+}
+.sidebar_video h5{
+    background: green;
+    color: #fff;
+    padding: 5px;
+    margin-top: 5px;
+}
+select{
+    width: 75%;
+    padding: 5px;
+}
+/* button{
+    border: 1px solid #ddd;
+    padding: 5px;
+    width: 20%;
+} */
+/* hero part end */
+/* footer part start */
+.footer_bottom{
+    height: 110px;
+    border-bottom: 4px solid #9E5BBA;
+}
+.fb_left ul li a{
+    font-size: 12px;
+}
+.fb_left p{
+    font-size: 10px;
+    padding-left: 30px;
+}
+.fb_right p{
+    font-size: 10px;
+}
+/* footer part end */
+.xx h4{
+    background-color: aqua;
+    padding: 5px;
+}
+.zz li{
+    color: red;
+    font-size: 14px;
+    /* border-bottom: 1px solid green; */
+    margin-bottom: 2px;
+    /* width: 50%; */
+}
+
+.zz li:hover{
+    color: #000;
+}
+
+
+.menu_top li{
+    padding-right: 20px;
+    
+}
+.menu_top li a{
+    text-decoration: none;
+}
